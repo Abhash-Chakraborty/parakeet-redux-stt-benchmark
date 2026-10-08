@@ -1,0 +1,20 @@
+ggml_vulkan: Found 2 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon(TM) Graphics (AMD proprietary driver) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 0 | matrix cores: none
+ggml_vulkan: 1 = NVIDIA GeForce GTX 1650 (NVIDIA) | uma: 0 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: none
+load_backend: loaded Vulkan backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-vulkan.dll
+load_backend: loaded CPU backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-cpu-haswell.dll
+parakeet: using selected cpu device: CPU
+parakeet: promoted 48 conv pointwise weights from F16 → F32 for CPU backend
+decoder (rnnt): 88 iters, 36 tokens, T_enc=52  enc_proj=0.8 ms  pred=25.2 ms  joint=4.8 ms  conf=0.5 ms  total=31.3 ms
+READY
+decoder (rnnt): 88 iters, 36 tokens, T_enc=52  enc_proj=0.9 ms  pred=28.1 ms  joint=5.1 ms  conf=0.5 ms  total=34.6 ms
+decoder (rnnt): 87 iters, 35 tokens, T_enc=52  enc_proj=0.8 ms  pred=22.5 ms  joint=4.4 ms  conf=0.5 ms  total=28.2 ms
+decoder (rnnt): 115 iters, 22 tokens, T_enc=93  enc_proj=1.2 ms  pred=16.2 ms  joint=4.7 ms  conf=0.3 ms  total=22.5 ms
+decoder (rnnt): 123 iters, 32 tokens, T_enc=91  enc_proj=1.2 ms  pred=21.6 ms  joint=5.8 ms  conf=0.5 ms  total=29.1 ms
+decoder (rnnt): 288 iters, 85 tokens, T_enc=203  enc_proj=3.2 ms  pred=52.7 ms  joint=12.7 ms  conf=1.0 ms  total=69.5 ms
+decoder (rnnt): 297 iters, 95 tokens, T_enc=202  enc_proj=2.7 ms  pred=64.0 ms  joint=15.0 ms  conf=1.4 ms  total=83.1 ms
+decoder (rnnt): 259 iters, 88 tokens, T_enc=171  enc_proj=2.5 ms  pred=58.0 ms  joint=12.5 ms  conf=1.4 ms  total=74.5 ms
+decoder (rnnt): 215 iters, 54 tokens, T_enc=161  enc_proj=2.5 ms  pred=36.9 ms  joint=10.2 ms  conf=0.8 ms  total=50.4 ms
+decoder (rnnt): 131 iters, 28 tokens, T_enc=103  enc_proj=1.3 ms  pred=18.2 ms  joint=5.2 ms  conf=0.4 ms  total=25.1 ms
+decoder (rnnt): 137 iters, 36 tokens, T_enc=101  enc_proj=1.4 ms  pred=25.6 ms  joint=7.1 ms  conf=0.6 ms  total=34.7 ms
+DONE

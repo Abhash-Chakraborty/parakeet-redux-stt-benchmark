@@ -1,0 +1,7 @@
+id,subset,group,duration_s,source,licence,audio,reference
+A_ted_clean,A,ted_clean,203.953,https://www.youtube.com/watch?v=HANo__Z8K6s [63.73-267.68s] captions=en,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_ted_clean.wav,[withheld: YouTube captions]
+A_conversation_podcast,A,conversation_podcast,206.8,https://www.youtube.com/watch?v=xAt1xcC6qfM [300.96-507.76s] captions=en-IN,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_conversation_podcast.wav,[withheld: YouTube captions]
+A_technical_lecture,A,technical_lecture,203.88,https://www.youtube.com/watch?v=xAcTmDO6NTI [602.83-806.71s] captions=en-j3PyPqV-e1s,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_technical_lecture.wav,[withheld: YouTube captions]
+A_news_fast,A,news_fast,208.61,https://www.youtube.com/watch?v=yP9wGEo3NqI [60.31-268.92s] captions=en,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_news_fast.wav,[withheld: YouTube captions]
+A_indian_english,A,indian_english,208.603,https://www.youtube.com/watch?v=kcW4ABcY3zI [121.12-329.72s] captions=en,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_indian_english.wav,[withheld: YouTube captions]
+A_noisy_outdoor,A,noisy_outdoor,208.64,https://www.youtube.com/watch?v=OlyYE6USuO0 [30.12-238.76s] captions=en-US,"YouTube standard licence; local research use only, not redistributed",data/audio/A/A_noisy_outdoor.wav,[withheld: YouTube captions]

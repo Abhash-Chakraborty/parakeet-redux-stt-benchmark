@@ -1,0 +1,34 @@
+order: wlv3_q8:gpu:6 wturbo_q8:gpu:6 unified_q8:gpu:6 wlv3_q8:cpu:6 redux:cpu:12 moon_f16:cpu:6 redux:cpu:4 wturbo_q8:cpu:6 tdt_f16:gpu:6 tdt_q8:cpu:6 redux:cpu:6 tdt_q8:cpu:6:docker unified_q8:cpu:6 moon_f16:gpu:6 tdt_f16:cpu:6 tdt_q8:gpu:6
+=== wlv3_q8:gpu:6 22:41:24
+{"system": "wlv3_q8", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 153.07268819999445, "baseline_vram_used_mb": 161.0, "baseline_sy
+=== wturbo_q8:gpu:6 22:45:05
+{"system": "wturbo_q8", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 119.16576389999682, "baseline_vram_used_mb": 161.0, "baseline_
+=== unified_q8:gpu:6 22:48:13
+{"system": "unified_q8", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 20.88278100000025, "baseline_vram_used_mb": 161.0, "baseline_
+=== wlv3_q8:cpu:6 22:49:42
+{"system": "wlv3_q8", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 1127.1886426000056, "baseline_vram_used_mb": 161.0, "baseline_sy
+=== redux:cpu:12 23:09:37
+{"system": "redux", "device": "cpu", "set": "speed", "threads": 12, "docker": true, "wall_s": 70.41479040000559, "baseline_vram_used_mb": 161.0, "baseline_syste
+=== moon_f16:cpu:6 23:11:57
+{"system": "moon_f16", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 37.94394569999713, "baseline_vram_used_mb": 161.0, "baseline_sy
+=== redux:cpu:4 23:13:43
+{"system": "redux", "device": "cpu", "set": "speed", "threads": 4, "docker": true, "wall_s": 59.112664100000984, "baseline_vram_used_mb": 161.0, "baseline_syste
+=== wturbo_q8:cpu:6 23:15:52
+{"system": "wturbo_q8", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 894.0039877000017, "baseline_vram_used_mb": 161.0, "baseline_s
+=== tdt_f16:gpu:6 23:31:54
+{"system": "tdt_f16", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 21.63758919999964, "baseline_vram_used_mb": 161.0, "baseline_sys
+=== tdt_q8:cpu:6 23:33:24
+{"system": "tdt_q8", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 81.0355528, "baseline_vram_used_mb": 161.0, "baseline_system_cpu_
+=== redux:cpu:6 23:35:53
+{"system": "redux", "device": "cpu", "set": "speed", "threads": 6, "docker": true, "wall_s": 63.9978329000005, "baseline_vram_used_mb": 161.0, "baseline_system_
+=== tdt_q8:cpu:6:docker 23:38:06
+{"system": "tdt_q8", "device": "cpu", "set": "speed", "threads": 6, "docker": true, "wall_s": 73.59491659999912, "baseline_vram_used_mb": 161.0, "baseline_syste
+=== unified_q8:cpu:6 23:40:29
+{"system": "unified_q8", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 81.21938070000033, "baseline_vram_used_mb": 161.0, "baseline_
+=== moon_f16:gpu:6 23:42:59
+{"system": "moon_f16", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 12.5278959999996, "baseline_vram_used_mb": 161.0, "baseline_sys
+=== tdt_f16:cpu:6 23:44:20
+{"system": "tdt_f16", "device": "cpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 101.35867100000178, "baseline_vram_used_mb": 161.0, "baseline_sy
+=== tdt_q8:gpu:6 23:47:09
+{"system": "tdt_q8", "device": "gpu", "set": "speed", "threads": 6, "docker": false, "wall_s": 21.866407200002868, "baseline_vram_used_mb": 161.0, "baseline_sys
+ALL DONE 23:48:40

@@ -1,0 +1,24 @@
+ggml_vulkan: Found 2 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon(TM) Graphics (AMD proprietary driver) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 0 | matrix cores: none
+ggml_vulkan: 1 = NVIDIA GeForce GTX 1650 (NVIDIA) | uma: 0 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: none
+load_backend: loaded Vulkan backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-vulkan.dll
+load_backend: loaded CPU backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-cpu-haswell.dll
+parakeet: using selected vulkan device: Vulkan1
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 457 iters, 109 tokens, T_enc=348  enc_proj=3.7 ms  pred=66.6 ms  joint=18.4 ms  conf=1.4 ms  total=90.1 ms
+READY
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 457 iters, 109 tokens, T_enc=348  enc_proj=3.6 ms  pred=65.6 ms  joint=18.3 ms  conf=1.6 ms  total=89.0 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 70 iters, 8 tokens, T_enc=62  enc_proj=1.4 ms  pred=7.3 ms  joint=3.2 ms  conf=0.1 ms  total=12.0 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 340 iters, 70 tokens, T_enc=270  enc_proj=2.5 ms  pred=41.3 ms  joint=13.7 ms  conf=0.9 ms  total=58.4 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 235 iters, 43 tokens, T_enc=192  enc_proj=2.3 ms  pred=29.3 ms  joint=9.5 ms  conf=0.6 ms  total=41.8 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 458 iters, 110 tokens, T_enc=348  enc_proj=4.2 ms  pred=68.2 ms  joint=18.5 ms  conf=1.6 ms  total=92.4 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 67 iters, 17 tokens, T_enc=50  enc_proj=1.0 ms  pred=12.4 ms  joint=3.1 ms  conf=0.2 ms  total=16.7 ms
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder (rnnt): 501 iters, 130 tokens, T_enc=371  enc_proj=3.7 ms  pred=80.7 ms  joint=21.1 ms  conf=2.0 ms  total=107.4 ms
+DONE

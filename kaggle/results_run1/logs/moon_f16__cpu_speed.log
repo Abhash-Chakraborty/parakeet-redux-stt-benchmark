@@ -1,0 +1,3 @@
+DONE tcpp moon_f16 cpu speed
+load_backend: loaded CPU backend from /kaggle/working/venvs/tcpp/lib/python3.12/site-packages/transcribe_cpp_native/_native/libggml-cpu-skylakex.so
+moonshine: using selected cpu device: CPU

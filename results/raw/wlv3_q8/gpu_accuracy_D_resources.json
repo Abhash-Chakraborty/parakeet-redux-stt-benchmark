@@ -1,0 +1,29 @@
+{
+  "system": "wlv3_q8",
+  "device": "gpu",
+  "set": "accuracy",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 20.603801500001282,
+  "baseline_vram_used_mb": 161.0,
+  "baseline_system_cpu_pct": 11.6,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 112,
+    "peak_rss_mb": 274.7109375,
+    "mean_proc_cpu_pct": 46.77321428571429,
+    "peak_proc_cpu_pct": 223.2,
+    "mean_system_cpu_pct": 19.470535714285713,
+    "peak_vram_used_mb": 2133.89453125,
+    "peak_vram_delta_mb": 1972.89453125
+  },
+  "infer": {
+    "n_samples": 250,
+    "peak_rss_mb": 232.734375,
+    "mean_proc_cpu_pct": 33.3924,
+    "peak_proc_cpu_pct": 332.4,
+    "mean_system_cpu_pct": 16.34,
+    "peak_vram_used_mb": 2133.89453125,
+    "peak_vram_delta_mb": 1972.89453125
+  }
+}

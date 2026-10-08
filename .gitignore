@@ -1,0 +1,17 @@
+.env
+envs/
+models/
+data/audio/
+data/raw/
+__pycache__/
+*.pyc
+kaggle/_ds/
+kaggle/_out/
+kaggle/_kernel/
+kaggle/_code/
+kaggle/_kernel2/
+kaggle/_download_main/
+kaggle/_download_repair/
+kaggle/_remote_failed/
+kaggle/_metadata/
+kaggle/_verify_notebook/

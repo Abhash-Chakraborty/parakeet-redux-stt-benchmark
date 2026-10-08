@@ -1,0 +1,14 @@
+vercel: 1/140
+FAIL A_ted_clean__c08: HTTP 429: {"error":{"message":"Rate limit exceeded for google/gemini-3.5-transcribe for provider google: this team's limit of 5 requests per minute (across all regions) was reached. Retry after 60s.","type":"rate_limit_exceeded","param":{"error":"Rate limit exceeded for google/gemini-3.5-transcribe for provid
+vercel: 21/140
+vercel: 41/140
+vercel: 61/140
+vercel: 81/140
+vercel: 101/140
+vercel: 121/140
+vercel: done -> cloud_accuracy_ABB2C.jsonl
+vercel: 1/140
+vercel: 21/140
+vercel: 41/140
+vercel: 61/140
+vercel: done -> cloud_accuracy_ABB2C.jsonl

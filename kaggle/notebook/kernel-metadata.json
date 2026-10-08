@@ -1,0 +1,16 @@
+{
+ "id": "abhashchakraborty/stt-benchmark-gpu",
+ "title": "stt-benchmark-gpu",
+ "code_file": "stt-benchmark.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_internet": true,
+ "dataset_sources": [
+  "abhashchakraborty/stt-benchmark-audio",
+  "abhashchakraborty/stt-benchmark-code"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

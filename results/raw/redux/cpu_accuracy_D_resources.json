@@ -1,0 +1,29 @@
+{
+  "system": "redux",
+  "device": "cpu",
+  "set": "accuracy",
+  "threads": 6,
+  "docker": true,
+  "wall_s": 28.105243900005007,
+  "baseline_vram_used_mb": 161.0,
+  "baseline_system_cpu_pct": 13.1,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 304,
+    "peak_rss_mb": 21.54296875,
+    "mean_proc_cpu_pct": 0.08289473684210526,
+    "peak_proc_cpu_pct": 25.2,
+    "mean_system_cpu_pct": 36.10526315789474,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 143,
+    "peak_rss_mb": 21.54296875,
+    "mean_proc_cpu_pct": 0.0,
+    "peak_proc_cpu_pct": 0.0,
+    "mean_system_cpu_pct": 53.62657342657343,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  }
+}

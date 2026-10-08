@@ -1,0 +1,29 @@
+{
+  "system": "tdt_f16",
+  "device": "cpu",
+  "set": "speed",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 101.35867100000178,
+  "baseline_vram_used_mb": 161.0,
+  "baseline_system_cpu_pct": 10.3,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 64,
+    "peak_rss_mb": 1670.57421875,
+    "mean_proc_cpu_pct": 155.1171875,
+    "peak_proc_cpu_pct": 797.9,
+    "mean_system_cpu_pct": 51.453125,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 1612,
+    "peak_rss_mb": 1727.7109375,
+    "mean_proc_cpu_pct": 594.8001861042184,
+    "peak_proc_cpu_pct": 815.2,
+    "mean_system_cpu_pct": 65.47816377171216,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  }
+}

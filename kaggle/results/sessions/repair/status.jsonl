@@ -1,0 +1,6 @@
+{"backend": "fw", "system": "wturbo_fw", "device": "gpu", "set": "accuracy", "ok": true, "rc": 0, "seconds": 95, "error": null}
+{"backend": "fw", "system": "wturbo_fw", "device": "gpu", "set": "speed", "ok": true, "rc": 0, "seconds": 31, "error": null}
+{"backend": "fw", "system": "wlv3_fw", "device": "gpu", "set": "accuracy", "ok": true, "rc": 0, "seconds": 171, "error": null}
+{"backend": "fw", "system": "wlv3_fw", "device": "gpu", "set": "speed", "ok": true, "rc": 0, "seconds": 61, "error": null}
+{"backend": "nemo", "system": "unified_nemo", "device": "gpu", "set": "accuracy", "ok": true, "rc": 0, "seconds": 156, "error": null}
+{"backend": "nemo", "system": "unified_nemo", "device": "gpu", "set": "speed", "ok": true, "rc": 0, "seconds": 55, "error": null}

@@ -1,0 +1,31 @@
+[      0s] nproc=4 data=/kaggle/input/datasets/abhashchakraborty/stt-benchmark-audio
+[      0s] cpu flags: avx2 avx512f
+[      1s] gpu: Tesla T4, 15360 MiB, 580.178.04
+Tesla T4, 15360 MiB, 580.178.04
+[      9s] vulkan probe: no NVIDIA Vulkan device
+[    131s] venv photon: rc=0 in 116s
+[    138s] photon isa: ternary_gemm_isa avx2 {'avx512vnni': False, 'avxvnni': False, 'avx2': True}
+[    451s] OK   photon redux__cpu_accuracy (313s)
+[    553s] OK   photon redux__cpu_speed (103s)
+[    593s] OK   photon redux__gpu_accuracy (40s)
+[    618s] OK   photon redux__gpu_speed (25s)
+[    676s] venv fw: rc=0 in 59s
+[    692s] FAIL fw     wturbo_fw__gpu_accuracy (16s)
+[    695s] FAIL fw     wturbo_fw__gpu_speed (3s)
+[    719s] FAIL fw     wlv3_fw__gpu_accuracy (24s)
+[    723s] FAIL fw     wlv3_fw__gpu_speed (4s)
+[    724s] venv tcpp: rc=0 in 1s
+[    724s] tcpp backends: load_backend: loaded CPU backend from /kaggle/working/venvs/tcpp/lib/python3.12/site-packages/transcribe_cpp_native/_native/libggml-cpu-skylakex.so
+[   1181s] OK   tcpp   unified_q8__cpu_accuracy (456s)
+[   1342s] OK   tcpp   tdt_q8__cpu_speed (161s)
+[   1490s] OK   tcpp   unified_q8__cpu_speed (149s)
+[   1624s] OK   tcpp   tdt_f16__cpu_speed (134s)
+[   1734s] OK   tcpp   moon_f16__cpu_speed (110s)
+[   1877s] OK   hf     moon_hf__gpu_accuracy (140s)
+[   1922s] OK   hf     moon_hf__gpu_speed (44s)
+[   1934s] nemo install rc=0 in 13s
+[   1985s] FAIL nemo   unified_nemo__gpu_accuracy (50s)
+[   2009s] FAIL nemo   unified_nemo__gpu_speed (25s)
+[   2112s] OK   nemo   tdt_nemo__gpu_accuracy (103s)
+[   2173s] OK   nemo   tdt_nemo__gpu_speed (61s)
+[   2173s] ALL DONE

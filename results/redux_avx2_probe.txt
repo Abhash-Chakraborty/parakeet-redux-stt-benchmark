@@ -1,0 +1,86 @@
+isa: avx2
+MOONDREAM_API_KEY is not set. Finetune inference is disabled. Set MOONDREAM_API_KEY to enable finetune inference.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|##########| 4/4 [00:00<00:00, 1137.05it/s]
+load_s 6.07
+Traceback (most recent call last):
+  File "D:\Development\Experiment\scripts\redux_isa_probe.py", line 14, in <module>
+    r = sp.transcribe(audio="data/smoke/jfk.wav")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\moondream\photon_client.py", line 560, in transcribe
+    result = self.invoke("transcribe", **owned_prompt)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\moondream\photon_client.py", line 533, in invoke
+    return self._adapt_result(self._run(capability(**owned_prompt)))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\moondream\photon_client.py", line 604, in _run
+    return _wait_on_loop(coro, self._loop, "Photon client is closed")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\moondream\photon_client.py", line 158, in _wait_on_loop
+    return pending.result(timeout=0.05)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abhash\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\abhash\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\moondream\photon_client.py", line 122, in tracked
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\engine\handle.py", line 284, in transcribe
+    return await self._capability("transcribe", prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\engine\handle.py", line 201, in _capability
+    return await submission
+           ^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\longform.py", line 361, in run
+    return await invoke(owned_prompt, image=image, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\engine\handle.py", line 192, in invoke
+    return await submission
+           ^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\engine\core.py", line 930, in run
+    return await asyncio.shield(future)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\engine\single_pass.py", line 292, in _launch_batch
+    batch = self._runtime.launch(requests[0].task, inputs)  # type: ignore[attr-defined]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\runtime.py", line 916, in launch
+    self._run_group(
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\runtime.py", line 774, in _run_group
+    output = self.model.generate(features, mask, max_tokens=max_tokens)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\model.py", line 654, in generate
+    encoded, valid = self.encode(features, attention_mask)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\model.py", line 640, in encode
+    encoded, valid = self.encoder(features, attention_mask)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\model.py", line 348, in forward
+    return self.forward_subsampled(hidden, valid)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel\models\parakeet_tdt\model.py", line 358, in forward_subsampled
+    relative = self.relative_k_proj(positions)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\torch\nn\modules\module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\torch\nn\modules\module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel_kernels\ternary.py", line 437, in forward
+    return get_runtime(x.device).ternary.linear(x, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Development\Experiment\envs\photon\Lib\site-packages\kestrel_kernels\ternary.py", line 365, in ternary_linear_torch
+    _cpu.ternary_gemm(
+ValueError: no 'avx2' matrix-multiply path on this machine
+exit=1

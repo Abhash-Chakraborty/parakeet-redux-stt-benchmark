@@ -1,0 +1,168 @@
+ggml_vulkan: Found 2 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon(TM) Graphics (AMD proprietary driver) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 0 | matrix cores: none
+ggml_vulkan: 1 = NVIDIA GeForce GTX 1650 (NVIDIA) | uma: 0 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: none
+load_backend: loaded Vulkan backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-vulkan.dll
+load_backend: loaded CPU backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-cpu-haswell.dll
+parakeet: using selected vulkan device: Vulkan1
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 38 iters, 30 tokens, T_enc=52  enc_proj=0.9 ms  pred=21.6 ms  joint=16.7 ms  conf=2.5 ms  total=41.8 ms  per_iter=1009 us
+READY
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 26 tokens, T_enc=52  enc_proj=1.2 ms  pred=19.0 ms  joint=18.4 ms  conf=2.5 ms  total=41.2 ms  per_iter=936 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 33 tokens, T_enc=52  enc_proj=0.9 ms  pred=25.2 ms  joint=21.5 ms  conf=3.0 ms  total=50.7 ms  per_iter=1113 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 45 iters, 41 tokens, T_enc=52  enc_proj=0.9 ms  pred=30.3 ms  joint=24.1 ms  conf=3.4 ms  total=58.8 ms  per_iter=1210 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 27 tokens, T_enc=93  enc_proj=1.3 ms  pred=20.4 ms  joint=21.2 ms  conf=2.4 ms  total=45.4 ms  per_iter=992 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 41 iters, 30 tokens, T_enc=91  enc_proj=1.3 ms  pred=21.6 ms  joint=18.9 ms  conf=2.6 ms  total=44.5 ms  per_iter=989 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 32 tokens, T_enc=83  enc_proj=1.2 ms  pred=23.4 ms  joint=20.3 ms  conf=2.8 ms  total=47.7 ms  per_iter=1092 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 31 tokens, T_enc=83  enc_proj=1.2 ms  pred=22.6 ms  joint=17.4 ms  conf=3.3 ms  total=44.4 ms  per_iter=1211 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 80 iters, 76 tokens, T_enc=203  enc_proj=2.8 ms  pred=49.2 ms  joint=38.5 ms  conf=6.2 ms  total=96.7 ms  per_iter=1096 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 88 iters, 82 tokens, T_enc=202  enc_proj=2.4 ms  pred=54.4 ms  joint=41.8 ms  conf=7.0 ms  total=105.7 ms  per_iter=1094 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 76 iters, 71 tokens, T_enc=198  enc_proj=2.2 ms  pred=48.5 ms  joint=38.6 ms  conf=6.7 ms  total=95.9 ms  per_iter=1146 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 59 iters, 56 tokens, T_enc=156  enc_proj=1.9 ms  pred=37.1 ms  joint=28.1 ms  conf=5.4 ms  total=72.5 ms  per_iter=1105 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 87 iters, 78 tokens, T_enc=171  enc_proj=2.4 ms  pred=52.4 ms  joint=41.2 ms  conf=7.0 ms  total=103.1 ms  per_iter=1076 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 66 iters, 53 tokens, T_enc=161  enc_proj=1.8 ms  pred=38.4 ms  joint=30.1 ms  conf=5.0 ms  total=75.3 ms  per_iter=1038 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 39 iters, 33 tokens, T_enc=125  enc_proj=1.6 ms  pred=23.9 ms  joint=19.5 ms  conf=2.8 ms  total=47.8 ms  per_iter=1113 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 57 iters, 49 tokens, T_enc=118  enc_proj=1.4 ms  pred=35.6 ms  joint=29.2 ms  conf=4.4 ms  total=70.6 ms  per_iter=1137 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 24 tokens, T_enc=103  enc_proj=1.4 ms  pred=18.9 ms  joint=17.0 ms  conf=2.0 ms  total=39.3 ms  per_iter=1026 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 30 tokens, T_enc=101  enc_proj=1.5 ms  pred=23.0 ms  joint=18.6 ms  conf=2.5 ms  total=45.6 ms  per_iter=1189 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 37 iters, 34 tokens, T_enc=85  enc_proj=1.2 ms  pred=24.4 ms  joint=19.2 ms  conf=3.1 ms  total=47.9 ms  per_iter=1178 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 29 tokens, T_enc=85  enc_proj=1.4 ms  pred=21.0 ms  joint=17.4 ms  conf=2.4 ms  total=42.2 ms  per_iter=1164 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 38 iters, 30 tokens, T_enc=52  enc_proj=0.9 ms  pred=21.3 ms  joint=16.5 ms  conf=2.5 ms  total=41.1 ms  per_iter=994 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 26 tokens, T_enc=52  enc_proj=1.0 ms  pred=19.2 ms  joint=18.8 ms  conf=2.2 ms  total=41.2 ms  per_iter=949 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 33 tokens, T_enc=52  enc_proj=0.9 ms  pred=24.1 ms  joint=19.7 ms  conf=2.5 ms  total=47.2 ms  per_iter=1044 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 45 iters, 41 tokens, T_enc=52  enc_proj=1.0 ms  pred=28.3 ms  joint=22.2 ms  conf=4.2 ms  total=55.6 ms  per_iter=1123 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 27 tokens, T_enc=93  enc_proj=1.2 ms  pred=20.1 ms  joint=20.8 ms  conf=2.6 ms  total=44.7 ms  per_iter=973 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 41 iters, 30 tokens, T_enc=91  enc_proj=1.3 ms  pred=21.7 ms  joint=19.2 ms  conf=2.3 ms  total=44.6 ms  per_iter=997 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 32 tokens, T_enc=83  enc_proj=1.2 ms  pred=23.1 ms  joint=20.7 ms  conf=2.6 ms  total=47.7 ms  per_iter=1096 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 31 tokens, T_enc=83  enc_proj=1.0 ms  pred=22.3 ms  joint=17.7 ms  conf=2.7 ms  total=43.7 ms  per_iter=1212 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 80 iters, 76 tokens, T_enc=203  enc_proj=2.4 ms  pred=50.5 ms  joint=38.7 ms  conf=7.2 ms  total=98.7 ms  per_iter=1115 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 88 iters, 82 tokens, T_enc=202  enc_proj=2.4 ms  pred=56.4 ms  joint=43.5 ms  conf=7.7 ms  total=110.0 ms  per_iter=1135 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 76 iters, 71 tokens, T_enc=198  enc_proj=2.3 ms  pred=48.3 ms  joint=37.1 ms  conf=6.1 ms  total=93.9 ms  per_iter=1124 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 59 iters, 56 tokens, T_enc=156  enc_proj=1.9 ms  pred=38.1 ms  joint=29.5 ms  conf=5.6 ms  total=75.1 ms  per_iter=1145 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 87 iters, 78 tokens, T_enc=171  enc_proj=2.3 ms  pred=54.8 ms  joint=42.9 ms  conf=6.9 ms  total=106.9 ms  per_iter=1123 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 66 iters, 53 tokens, T_enc=161  enc_proj=1.7 ms  pred=36.1 ms  joint=29.6 ms  conf=4.4 ms  total=71.9 ms  per_iter=995 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 39 iters, 33 tokens, T_enc=125  enc_proj=1.5 ms  pred=24.2 ms  joint=20.0 ms  conf=2.5 ms  total=48.2 ms  per_iter=1132 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 57 iters, 49 tokens, T_enc=118  enc_proj=1.6 ms  pred=34.2 ms  joint=28.7 ms  conf=4.4 ms  total=69.0 ms  per_iter=1103 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 24 tokens, T_enc=103  enc_proj=1.5 ms  pred=18.8 ms  joint=16.6 ms  conf=2.2 ms  total=39.1 ms  per_iter=1010 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 30 tokens, T_enc=101  enc_proj=1.5 ms  pred=21.9 ms  joint=17.5 ms  conf=2.4 ms  total=43.4 ms  per_iter=1127 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 37 iters, 34 tokens, T_enc=85  enc_proj=1.2 ms  pred=23.0 ms  joint=18.2 ms  conf=3.3 ms  total=45.7 ms  per_iter=1114 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 29 tokens, T_enc=85  enc_proj=1.2 ms  pred=20.6 ms  joint=15.4 ms  conf=2.1 ms  total=39.4 ms  per_iter=1092 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 38 iters, 30 tokens, T_enc=52  enc_proj=0.9 ms  pred=22.6 ms  joint=18.3 ms  conf=3.0 ms  total=44.8 ms  per_iter=1077 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 26 tokens, T_enc=52  enc_proj=1.0 ms  pred=18.8 ms  joint=18.5 ms  conf=2.4 ms  total=40.7 ms  per_iter=933 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 33 tokens, T_enc=52  enc_proj=1.0 ms  pred=24.6 ms  joint=20.1 ms  conf=3.2 ms  total=48.9 ms  per_iter=1064 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 45 iters, 41 tokens, T_enc=52  enc_proj=0.9 ms  pred=29.1 ms  joint=22.5 ms  conf=4.0 ms  total=56.4 ms  per_iter=1146 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 27 tokens, T_enc=93  enc_proj=1.2 ms  pred=19.9 ms  joint=20.3 ms  conf=2.7 ms  total=44.1 ms  per_iter=958 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 41 iters, 30 tokens, T_enc=91  enc_proj=1.2 ms  pred=22.2 ms  joint=19.0 ms  conf=3.0 ms  total=45.3 ms  per_iter=1003 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 32 tokens, T_enc=83  enc_proj=1.3 ms  pred=22.2 ms  joint=19.3 ms  conf=2.6 ms  total=45.3 ms  per_iter=1037 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 31 tokens, T_enc=83  enc_proj=1.3 ms  pred=22.5 ms  joint=17.9 ms  conf=2.4 ms  total=44.1 ms  per_iter=1225 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 80 iters, 76 tokens, T_enc=203  enc_proj=2.2 ms  pred=51.1 ms  joint=39.6 ms  conf=6.8 ms  total=99.7 ms  per_iter=1134 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 88 iters, 82 tokens, T_enc=202  enc_proj=2.2 ms  pred=55.9 ms  joint=43.7 ms  conf=7.8 ms  total=109.6 ms  per_iter=1131 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 76 iters, 71 tokens, T_enc=198  enc_proj=2.4 ms  pred=48.4 ms  joint=37.7 ms  conf=6.3 ms  total=94.8 ms  per_iter=1132 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 59 iters, 56 tokens, T_enc=156  enc_proj=2.0 ms  pred=38.0 ms  joint=30.1 ms  conf=5.6 ms  total=75.7 ms  per_iter=1154 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 87 iters, 78 tokens, T_enc=171  enc_proj=1.9 ms  pred=54.3 ms  joint=43.0 ms  conf=7.6 ms  total=106.8 ms  per_iter=1119 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 66 iters, 53 tokens, T_enc=161  enc_proj=2.1 ms  pred=37.1 ms  joint=29.2 ms  conf=4.8 ms  total=73.1 ms  per_iter=1003 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 39 iters, 33 tokens, T_enc=125  enc_proj=1.6 ms  pred=23.1 ms  joint=19.5 ms  conf=2.6 ms  total=46.8 ms  per_iter=1092 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 57 iters, 49 tokens, T_enc=118  enc_proj=1.9 ms  pred=34.4 ms  joint=27.0 ms  conf=4.6 ms  total=67.9 ms  per_iter=1077 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 24 tokens, T_enc=103  enc_proj=1.4 ms  pred=18.7 ms  joint=16.6 ms  conf=2.3 ms  total=39.1 ms  per_iter=1010 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 30 tokens, T_enc=101  enc_proj=1.2 ms  pred=21.6 ms  joint=16.7 ms  conf=2.2 ms  total=41.9 ms  per_iter=1096 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 37 iters, 34 tokens, T_enc=85  enc_proj=1.4 ms  pred=24.3 ms  joint=18.8 ms  conf=3.2 ms  total=47.8 ms  per_iter=1165 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 29 tokens, T_enc=85  enc_proj=1.3 ms  pred=22.2 ms  joint=18.0 ms  conf=2.3 ms  total=43.8 ms  per_iter=1219 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 38 iters, 30 tokens, T_enc=52  enc_proj=1.1 ms  pred=23.1 ms  joint=18.1 ms  conf=2.9 ms  total=45.1 ms  per_iter=1083 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 26 tokens, T_enc=52  enc_proj=1.2 ms  pred=19.3 ms  joint=18.9 ms  conf=2.8 ms  total=42.2 ms  per_iter=954 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 33 tokens, T_enc=52  enc_proj=1.0 ms  pred=25.2 ms  joint=20.5 ms  conf=3.5 ms  total=50.2 ms  per_iter=1088 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 45 iters, 41 tokens, T_enc=52  enc_proj=1.1 ms  pred=28.8 ms  joint=22.2 ms  conf=3.8 ms  total=55.9 ms  per_iter=1134 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 42 iters, 27 tokens, T_enc=93  enc_proj=1.2 ms  pred=19.7 ms  joint=19.4 ms  conf=1.9 ms  total=42.2 ms  per_iter=931 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 41 iters, 30 tokens, T_enc=91  enc_proj=1.3 ms  pred=21.0 ms  joint=18.0 ms  conf=2.9 ms  total=43.2 ms  per_iter=953 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 40 iters, 32 tokens, T_enc=83  enc_proj=1.3 ms  pred=23.0 ms  joint=20.8 ms  conf=2.7 ms  total=47.8 ms  per_iter=1096 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 31 tokens, T_enc=83  enc_proj=1.2 ms  pred=23.5 ms  joint=18.4 ms  conf=3.1 ms  total=46.2 ms  per_iter=1268 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 80 iters, 76 tokens, T_enc=203  enc_proj=2.2 ms  pred=51.4 ms  joint=40.0 ms  conf=6.3 ms  total=99.8 ms  per_iter=1142 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 88 iters, 82 tokens, T_enc=202  enc_proj=2.9 ms  pred=55.4 ms  joint=42.6 ms  conf=7.5 ms  total=108.5 ms  per_iter=1114 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 76 iters, 71 tokens, T_enc=198  enc_proj=2.3 ms  pred=47.6 ms  joint=37.5 ms  conf=6.3 ms  total=93.7 ms  per_iter=1120 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 59 iters, 56 tokens, T_enc=156  enc_proj=2.0 ms  pred=40.2 ms  joint=30.0 ms  conf=5.3 ms  total=77.5 ms  per_iter=1191 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 87 iters, 78 tokens, T_enc=171  enc_proj=1.9 ms  pred=52.6 ms  joint=42.2 ms  conf=7.2 ms  total=103.9 ms  per_iter=1089 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 66 iters, 53 tokens, T_enc=161  enc_proj=2.0 ms  pred=36.9 ms  joint=30.5 ms  conf=4.5 ms  total=74.0 ms  per_iter=1023 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 39 iters, 33 tokens, T_enc=125  enc_proj=1.6 ms  pred=21.8 ms  joint=18.6 ms  conf=3.3 ms  total=45.3 ms  per_iter=1037 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 57 iters, 49 tokens, T_enc=118  enc_proj=1.7 ms  pred=34.6 ms  joint=27.5 ms  conf=3.6 ms  total=67.3 ms  per_iter=1088 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 24 tokens, T_enc=103  enc_proj=1.3 ms  pred=18.0 ms  joint=15.9 ms  conf=2.5 ms  total=37.7 ms  per_iter=968 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 35 iters, 30 tokens, T_enc=101  enc_proj=1.3 ms  pred=21.8 ms  joint=17.2 ms  conf=2.8 ms  total=43.1 ms  per_iter=1112 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 37 iters, 34 tokens, T_enc=85  enc_proj=1.1 ms  pred=24.5 ms  joint=18.9 ms  conf=2.9 ms  total=47.5 ms  per_iter=1175 us
+ggml_backend_sched_split_inputs_grow: increasing split inputs capacity from 30 to 60
+decoder: 33 iters, 29 tokens, T_enc=85  enc_proj=1.2 ms  pred=21.7 ms  joint=17.2 ms  conf=2.8 ms  total=42.9 ms  per_iter=1178 us
+DONE

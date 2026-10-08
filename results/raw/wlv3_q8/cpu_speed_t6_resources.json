@@ -1,0 +1,29 @@
+{
+  "system": "wlv3_q8",
+  "device": "cpu",
+  "set": "speed",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 1127.1886426000056,
+  "baseline_vram_used_mb": 161.0,
+  "baseline_system_cpu_pct": 16.6,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 285,
+    "peak_rss_mb": 2064.15625,
+    "mean_proc_cpu_pct": 513.7789473684211,
+    "peak_proc_cpu_pct": 815.2,
+    "mean_system_cpu_pct": 56.85684210526316,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 18879,
+    "peak_rss_mb": 2066.71875,
+    "mean_proc_cpu_pct": 605.4988929498385,
+    "peak_proc_cpu_pct": 864.4,
+    "mean_system_cpu_pct": 63.386863711001645,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  }
+}

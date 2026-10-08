@@ -1,0 +1,19 @@
+{"backend": "photon", "system": "redux", "device": "cpu", "set": "accuracy", "threads": 4, "ok": true, "rc": 0, "seconds": 313, "error": null}
+{"backend": "photon", "system": "redux", "device": "cpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 103, "error": null}
+{"backend": "photon", "system": "redux", "device": "gpu", "set": "accuracy", "threads": 4, "ok": true, "rc": 0, "seconds": 40, "error": null}
+{"backend": "photon", "system": "redux", "device": "gpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 25, "error": null}
+{"backend": "fw", "system": "wturbo_fw", "device": "gpu", "set": "accuracy", "threads": 4, "ok": false, "rc": 1, "seconds": 16, "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"}
+{"backend": "fw", "system": "wturbo_fw", "device": "gpu", "set": "speed", "threads": 4, "ok": false, "rc": 1, "seconds": 3, "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"}
+{"backend": "fw", "system": "wlv3_fw", "device": "gpu", "set": "accuracy", "threads": 4, "ok": false, "rc": 1, "seconds": 24, "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"}
+{"backend": "fw", "system": "wlv3_fw", "device": "gpu", "set": "speed", "threads": 4, "ok": false, "rc": 1, "seconds": 4, "error": "TypeError: open() got an unexpected keyword argument 'metadata_errors'"}
+{"backend": "tcpp", "system": "unified_q8", "device": "cpu", "set": "accuracy", "threads": 4, "ok": true, "rc": 0, "seconds": 456, "error": null}
+{"backend": "tcpp", "system": "tdt_q8", "device": "cpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 161, "error": null}
+{"backend": "tcpp", "system": "unified_q8", "device": "cpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 149, "error": null}
+{"backend": "tcpp", "system": "tdt_f16", "device": "cpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 134, "error": null}
+{"backend": "tcpp", "system": "moon_f16", "device": "cpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 110, "error": null}
+{"backend": "hf", "system": "moon_hf", "device": "gpu", "set": "accuracy", "threads": 4, "ok": true, "rc": 0, "seconds": 140, "error": null}
+{"backend": "hf", "system": "moon_hf", "device": "gpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 44, "error": null}
+{"backend": "nemo", "system": "unified_nemo", "device": "gpu", "set": "accuracy", "threads": 4, "ok": false, "rc": 1, "seconds": 50, "error": "AttributeError: 'NoneType' object has no attribute 'get'"}
+{"backend": "nemo", "system": "unified_nemo", "device": "gpu", "set": "speed", "threads": 4, "ok": false, "rc": 1, "seconds": 25, "error": "AttributeError: 'NoneType' object has no attribute 'get'"}
+{"backend": "nemo", "system": "tdt_nemo", "device": "gpu", "set": "accuracy", "threads": 4, "ok": true, "rc": 0, "seconds": 103, "error": null}
+{"backend": "nemo", "system": "tdt_nemo", "device": "gpu", "set": "speed", "threads": 4, "ok": true, "rc": 0, "seconds": 61, "error": null}

@@ -1,0 +1,12 @@
+{
+  "verified_date": "2026-10-06",
+  "kernel": "abhashchakraborty/stt-benchmark-gpu",
+  "version": 5,
+  "status": "COMPLETE",
+  "execution_mode": "analysis_replay",
+  "new_inference": false,
+  "accuracy_configurations": 8,
+  "speed_configurations": 11,
+  "exported_scores_match_local": true,
+  "source_hashes_match": true
+}

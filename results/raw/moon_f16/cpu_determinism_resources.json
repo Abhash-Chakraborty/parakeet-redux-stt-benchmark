@@ -1,0 +1,29 @@
+{
+  "system": "moon_f16",
+  "device": "cpu",
+  "set": "determinism",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 6.436142500002461,
+  "baseline_vram_used_mb": 167.45703125,
+  "baseline_system_cpu_pct": 14.2,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 17,
+    "peak_rss_mb": 234.29296875,
+    "mean_proc_cpu_pct": 171.53529411764706,
+    "peak_proc_cpu_pct": 478.8,
+    "mean_system_cpu_pct": 39.45882352941176,
+    "peak_vram_used_mb": 167.45703125,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 86,
+    "peak_rss_mb": 271.421875,
+    "mean_proc_cpu_pct": 547.9546511627907,
+    "peak_proc_cpu_pct": 797.9,
+    "mean_system_cpu_pct": 62.75,
+    "peak_vram_used_mb": 167.45703125,
+    "peak_vram_delta_mb": 0.0
+  }
+}

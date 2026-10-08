@@ -1,0 +1,7 @@
+D_own_00__c00	/work/data/audio/D_chunks/D_own_00__c00.wav
+D_own_00__c01	/work/data/audio/D_chunks/D_own_00__c01.wav
+D_own_01__c00	/work/data/audio/D_chunks/D_own_01__c00.wav
+D_own_01__c01	/work/data/audio/D_chunks/D_own_01__c01.wav
+D_own_02__c00	/work/data/audio/D_chunks/D_own_02__c00.wav
+D_own_02__c01	/work/data/audio/D_chunks/D_own_02__c01.wav
+D_own_03	/work/data/audio/D/D_own_03.wav

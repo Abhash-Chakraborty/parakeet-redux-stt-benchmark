@@ -1,0 +1,13 @@
+=== wlv3_q8 gpu 21:46:55
+{"system": "wlv3_q8", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 320.0566272999931, "baseline_vram_used_mb": 922.51953125, "baseline_system_cpu_pct": 31.5, "logical_c
+=== tdt_q8 gpu 21:52:23
+{"system": "tdt_q8", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 59.76936500000011, "baseline_vram_used_mb": 167.45703125, "baseline_system_cpu_pct": 17.0, "logical_cp
+=== unified_q8 gpu 21:53:30
+{"system": "unified_q8", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 53.378950300000724, "baseline_vram_used_mb": 167.45703125, "baseline_system_cpu_pct": 17.7, "logic
+=== wturbo_q8 gpu 21:54:31
+{"system": "wturbo_q8", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 223.36754320000182, "baseline_vram_used_mb": 167.45703125, "baseline_system_cpu_pct": 21.9, "logica
+=== tdt_f16 gpu 21:58:21
+{"system": "tdt_f16", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 55.21001700000488, "baseline_vram_used_mb": 167.45703125, "baseline_system_cpu_pct": 18.2, "logical_c
+=== moon_f16 gpu 21:59:24
+{"system": "moon_f16", "device": "gpu", "set": "accuracy", "threads": 6, "docker": false, "wall_s": 35.143588300001284, "baseline_vram_used_mb": 167.45703125, "baseline_system_cpu_pct": 27.8, "logical
+ALL DONE 22:00:06

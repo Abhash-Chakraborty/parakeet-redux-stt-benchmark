@@ -1,0 +1,35 @@
+OneLogger: Setting error_handling_strategy to DISABLE_QUIETLY_AND_REPORT_METRIC_ERROR for rank (rank=0) with OneLogger disabled. To override: explicitly set error_handling_strategy parameter.
+No exporters were provided. This means that no telemetry data will be collected.
+Traceback (most recent call last):
+  File "/kaggle/input/datasets/abhashchakraborty/stt-benchmark-audio/bench.py", line 209, in <module>
+    main()
+    ~~~~^^
+  File "/kaggle/input/datasets/abhashchakraborty/stt-benchmark-audio/bench.py", line 186, in main
+    first_text = sysobj.transcribe(p)
+  File "/kaggle/input/datasets/abhashchakraborty/stt-benchmark-audio/bench.py", line 127, in transcribe
+    out = self.m.transcribe([str(path)], batch_size=1, verbose=False)
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/nemo/collections/asr/models/rnnt_models.py", line 317, in transcribe
+    return super().transcribe(
+           ~~~~~~~~~~~~~~~~~~^
+        audio=audio,
+        ^^^^^^^^^^^^
+    ...<10 lines>...
+        partial_hypothesis=partial_hypothesis,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/nemo/collections/asr/parts/mixins/transcription.py", line 298, in transcribe
+    for processed_outputs in generator:
+                             ^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/nemo/collections/asr/parts/mixins/transcription.py", line 384, in transcribe_generator
+    dataloader = self._transcribe_input_processing(audio, transcribe_cfg)
+  File "/usr/local/lib/python3.13/dist-packages/nemo/collections/asr/parts/mixins/transcription.py", line 501, in _transcribe_input_processing
+    temp_dataloader = self._setup_transcribe_dataloader(ds_config)
+  File "/usr/local/lib/python3.13/dist-packages/nemo/collections/asr/models/rnnt_bpe_models.py", line 540, in _setup_transcribe_dataloader
+    'use_start_end_token': self.cfg.validation_ds.get('use_start_end_token', False),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'

@@ -1,0 +1,218 @@
+{
+ "D_own_00": {
+  "agreed": [
+   {
+    "type": "substitute",
+    "ref_start": 18,
+    "ref_end": 19,
+    "script": "great",
+    "heard": "good",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 46,
+    "ref_end": 47,
+    "script": "ananya",
+    "heard": "aranya",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 50,
+    "ref_end": 51,
+    "script": "3",
+    "heard": "3.30",
+    "models": 4
+   },
+   {
+    "type": "delete",
+    "ref_start": 51,
+    "ref_end": 52,
+    "script": "30",
+    "heard": "",
+    "models": 4
+   }
+  ]
+ },
+ "D_own_01": {
+  "agreed": [
+   {
+    "type": "substitute",
+    "ref_start": 3,
+    "ref_end": 4,
+    "script": "fix",
+    "heard": "changes",
+    "models": 6
+   },
+   {
+    "type": "insert",
+    "ref_start": 39,
+    "ref_end": 39,
+    "script": "",
+    "heard": "model",
+    "models": 4
+   },
+   {
+    "type": "delete",
+    "ref_start": 40,
+    "ref_end": 41,
+    "script": "before",
+    "heard": "",
+    "models": 6
+   },
+   {
+    "type": "delete",
+    "ref_start": 45,
+    "ref_end": 46,
+    "script": "we",
+    "heard": "",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 53,
+    "ref_end": 54,
+    "script": "service",
+    "heard": "services",
+    "models": 6
+   }
+  ]
+ },
+ "D_own_02": {
+  "agreed": [
+   {
+    "type": "insert",
+    "ref_start": 26,
+    "ref_end": 26,
+    "script": "",
+    "heard": "be",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 26,
+    "ref_end": 27,
+    "script": "join",
+    "heard": "joining",
+    "models": 6
+   },
+   {
+    "type": "insert",
+    "ref_start": 48,
+    "ref_end": 48,
+    "script": "",
+    "heard": "celsius",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 18,
+    "ref_end": 19,
+    "script": "7",
+    "heard": "7.45",
+    "models": 4
+   },
+   {
+    "type": "delete",
+    "ref_start": 19,
+    "ref_end": 20,
+    "script": "45",
+    "heard": "",
+    "models": 4
+   }
+  ]
+ },
+ "D_own_03": {
+  "agreed": [
+   {
+    "type": "substitute",
+    "ref_start": 5,
+    "ref_end": 6,
+    "script": "eggs",
+    "heard": "egg",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 10,
+    "ref_end": 11,
+    "script": "bananas",
+    "heard": "banana",
+    "models": 6
+   },
+   {
+    "type": "delete",
+    "ref_start": 22,
+    "ref_end": 23,
+    "script": "the",
+    "heard": "",
+    "models": 6
+   },
+   {
+    "type": "delete",
+    "ref_start": 28,
+    "ref_end": 29,
+    "script": "a",
+    "heard": "",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 30,
+    "ref_end": 31,
+    "script": "graphics",
+    "heard": "graphic",
+    "models": 4
+   },
+   {
+    "type": "substitute",
+    "ref_start": 40,
+    "ref_end": 41,
+    "script": "parakeet",
+    "heard": "paratic",
+    "models": 4
+   },
+   {
+    "type": "insert",
+    "ref_start": 42,
+    "ref_end": 42,
+    "script": "",
+    "heard": "11",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 42,
+    "ref_end": 43,
+    "script": "elevenlabs",
+    "heard": "labs",
+    "models": 4
+   },
+   {
+    "type": "insert",
+    "ref_start": 48,
+    "ref_end": 48,
+    "script": "",
+    "heard": "thank",
+    "models": 6
+   },
+   {
+    "type": "substitute",
+    "ref_start": 48,
+    "ref_end": 49,
+    "script": "thanks",
+    "heard": "you",
+    "models": 6
+   },
+   {
+    "type": "delete",
+    "ref_start": 52,
+    "ref_end": 53,
+    "script": "and",
+    "heard": "",
+    "models": 5
+   }
+  ]
+ }
+}

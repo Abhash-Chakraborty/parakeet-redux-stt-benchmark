@@ -1,0 +1,29 @@
+{
+  "system": "unified_q8",
+  "device": "cpu",
+  "set": "speed",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 81.21938070000033,
+  "baseline_vram_used_mb": 161.0,
+  "baseline_system_cpu_pct": 10.6,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 48,
+    "peak_rss_mb": 1133.5859375,
+    "mean_proc_cpu_pct": 148.22291666666666,
+    "peak_proc_cpu_pct": 797.9,
+    "mean_system_cpu_pct": 30.006249999999998,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 1300,
+    "peak_rss_mb": 1192.5078125,
+    "mean_proc_cpu_pct": 593.6958461538461,
+    "peak_proc_cpu_pct": 831.1,
+    "mean_system_cpu_pct": 62.80376923076923,
+    "peak_vram_used_mb": 161.0,
+    "peak_vram_delta_mb": 0.0
+  }
+}

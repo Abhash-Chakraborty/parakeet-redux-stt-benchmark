@@ -1,0 +1,10 @@
+[      0s] gpu: Tesla T4, 15360 MiB, 580.178.04
+Tesla T4, 15360 MiB, 580.178.04
+[     25s] venv fw rc=0
+[    120s] OK   fw     wturbo_fw__gpu_accuracy (95s)
+[    152s] OK   fw     wturbo_fw__gpu_speed (31s)
+[    323s] OK   fw     wlv3_fw__gpu_accuracy (171s)
+[    384s] OK   fw     wlv3_fw__gpu_speed (61s)
+[    552s] OK   nemo   unified_nemo__gpu_accuracy (156s)
+[    607s] OK   nemo   unified_nemo__gpu_speed (55s)
+[    607s] ALL DONE

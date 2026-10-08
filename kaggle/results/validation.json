@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "accuracy_configurations": 8,
+  "speed_configurations": 11,
+  "accuracy_units_each": 147,
+  "speed_units_each": 20,
+  "speed_passes": 3,
+  "files": [
+    {
+      "path": "raw/redux/cpu_accuracy.jsonl",
+      "sha256": "08b180f4047e6fef9e12b37cb2e4fe3da8b2b0112da055c5a85e55ab09600363",
+      "clips": 147
+    },
+    {
+      "path": "raw/redux/gpu_accuracy.jsonl",
+      "sha256": "00ec7a18830148c0236d2638bda5e40386c97ee85ebbcb495fd5dac8604458a3",
+      "clips": 147
+    },
+    {
+      "path": "raw/tdt_nemo/gpu_accuracy.jsonl",
+      "sha256": "a79cefeb186c32bd4177aa67591b30b538f60d76a16f414f5ddf1b6448091ef9",
+      "clips": 147
+    },
+    {
+      "path": "raw/unified_nemo/gpu_accuracy.jsonl",
+      "sha256": "260b0641105c6b04f402049a5375d044b99f33096ebc3f25c06f306604c3c8ae",
+      "clips": 147
+    },
+    {
+      "path": "raw/wturbo_fw/gpu_accuracy.jsonl",
+      "sha256": "ea3069e86b15971ab4bdb72a7ff3e1ac5f877a8f0f06f3c6642c60a8dfd3cfb1",
+      "clips": 147
+    },
+    {
+      "path": "raw/wlv3_fw/gpu_accuracy.jsonl",
+      "sha256": "6f478ce24a3bc4460d3b043af4f33740d6c60eba47f5dee333fefdc4d04ef217",
+      "clips": 147
+    },
+    {
+      "path": "raw/moon_hf/gpu_accuracy.jsonl",
+      "sha256": "a9745a3959fa94f5e4f520adfffb0358e0a0006c733e7607b764d5a160eeb7f7",
+      "clips": 147
+    },
+    {
+      "path": "raw/unified_q8/cpu_accuracy.jsonl",
+      "sha256": "4cecea794f231114b2d0e3cd914c1f008c4024d9507f1bfa2ceebdebd0a347e9",
+      "clips": 147
+    },
+    {
+      "path": "raw/redux/cpu_speed_t4.jsonl",
+      "sha256": "74f71cba0096722a42cb073129947435bdf4636fcf35d897aa62f2e68f87040f",
+      "clips": 60
+    },
+    {
+      "path": "raw/redux/gpu_speed_t4.jsonl",
+      "sha256": "cdfcd3b16ad3d698fdce016139e6c020f1e211a843e4d4649beeec170742884c",
+      "clips": 60
+    },
+    {
+      "path": "raw/tdt_nemo/gpu_speed_t4.jsonl",
+      "sha256": "c16c4ec62ee6caac653c90d4b9274e963b62a22cdc2bd92c310142509d956aab",
+      "clips": 60
+    },
+    {
+      "path": "raw/unified_nemo/gpu_speed_t4.jsonl",
+      "sha256": "9b5847bff0586ade7e8ca7a697f30e3d3f84536e624e964fdbe1b44e65b51266",
+      "clips": 60
+    },
+    {
+      "path": "raw/wturbo_fw/gpu_speed_t4.jsonl",
+      "sha256": "37077ecf117decabb19ffdcd8e4d736deae19fefd788f059a2a2d40d932b9550",
+      "clips": 60
+    },
+    {
+      "path": "raw/wlv3_fw/gpu_speed_t4.jsonl",
+      "sha256": "65a864c24d710ac67d2bed37681f0939c9369339331f7f1eb13e0131fba0bb71",
+      "clips": 60
+    },
+    {
+      "path": "raw/moon_hf/gpu_speed_t4.jsonl",
+      "sha256": "ae2981088b74d3f7be977501bee2af29525cc292e4ad9e5c4bab381de26f3224",
+      "clips": 60
+    },
+    {
+      "path": "raw/tdt_q8/cpu_speed_t4.jsonl",
+      "sha256": "6e01ba1da954361c1710458910d652d8afdcadd97b4efc54997c1772ced68d83",
+      "clips": 60
+    },
+    {
+      "path": "raw/tdt_f16/cpu_speed_t4.jsonl",
+      "sha256": "f12a30a0c701b0ee316c1020cac325c5c5fc0b4b7f5b130398fd66c922456d97",
+      "clips": 60
+    },
+    {
+      "path": "raw/unified_q8/cpu_speed_t4.jsonl",
+      "sha256": "28e587d2c03fe8ad1ae5740f02e1e8de8440565fbc36d48dc680006ecb4e8550",
+      "clips": 60
+    },
+    {
+      "path": "raw/moon_f16/cpu_speed_t4.jsonl",
+      "sha256": "21301935cf33b27a152f2262649ba71197e0fab3808c22caf9f84838d115d6a6",
+      "clips": 60
+    }
+  ]
+}

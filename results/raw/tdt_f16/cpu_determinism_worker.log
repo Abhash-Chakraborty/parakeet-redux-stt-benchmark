@@ -1,0 +1,20 @@
+ggml_vulkan: Found 2 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon(TM) Graphics (AMD proprietary driver) | uma: 1 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 0 | matrix cores: none
+ggml_vulkan: 1 = NVIDIA GeForce GTX 1650 (NVIDIA) | uma: 0 | fp16: 1 | bf16: 0 | fp4: 0 | warp size: 32 | shared memory: 49152 | int dot: 1 | matrix cores: none
+load_backend: loaded Vulkan backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-vulkan.dll
+load_backend: loaded CPU backend from D:\Development\Experiment\envs\tcpp\Lib\site-packages\transcribe_cpp_native\_native\ggml-cpu-haswell.dll
+parakeet: using selected cpu device: CPU
+parakeet: promoted 48 conv pointwise weights from F16 → F32 for CPU backend
+decoder: 37 iters, 30 tokens, T_enc=52  enc_proj=1.2 ms  pred=26.8 ms  joint=21.8 ms  conf=3.2 ms  total=53.0 ms  per_iter=1313 us
+READY
+decoder: 37 iters, 30 tokens, T_enc=52  enc_proj=0.9 ms  pred=24.9 ms  joint=20.8 ms  conf=3.5 ms  total=50.0 ms  per_iter=1234 us
+decoder: 40 iters, 26 tokens, T_enc=52  enc_proj=1.0 ms  pred=25.5 ms  joint=22.5 ms  conf=3.5 ms  total=52.5 ms  per_iter=1201 us
+decoder: 41 iters, 27 tokens, T_enc=93  enc_proj=1.2 ms  pred=22.1 ms  joint=22.2 ms  conf=2.5 ms  total=48.0 ms  per_iter=1082 us
+decoder: 41 iters, 30 tokens, T_enc=91  enc_proj=1.3 ms  pred=25.4 ms  joint=23.2 ms  conf=3.1 ms  total=53.0 ms  per_iter=1185 us
+decoder: 80 iters, 76 tokens, T_enc=203  enc_proj=3.4 ms  pred=54.2 ms  joint=41.4 ms  conf=7.7 ms  total=106.7 ms  per_iter=1196 us
+decoder: 88 iters, 82 tokens, T_enc=202  enc_proj=2.8 ms  pred=61.0 ms  joint=45.5 ms  conf=7.4 ms  total=116.7 ms  per_iter=1210 us
+decoder: 87 iters, 78 tokens, T_enc=171  enc_proj=2.8 ms  pred=63.6 ms  joint=49.8 ms  conf=8.4 ms  total=124.6 ms  per_iter=1304 us
+decoder: 67 iters, 53 tokens, T_enc=161  enc_proj=2.2 ms  pred=41.0 ms  joint=33.8 ms  conf=4.9 ms  total=81.9 ms  per_iter=1116 us
+decoder: 35 iters, 24 tokens, T_enc=103  enc_proj=1.7 ms  pred=19.2 ms  joint=18.2 ms  conf=2.5 ms  total=41.5 ms  per_iter=1067 us
+decoder: 35 iters, 30 tokens, T_enc=101  enc_proj=1.4 ms  pred=21.5 ms  joint=16.6 ms  conf=2.6 ms  total=42.1 ms  per_iter=1089 us
+DONE

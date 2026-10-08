@@ -1,0 +1,29 @@
+{
+  "system": "wturbo_q8",
+  "device": "cpu",
+  "set": "determinism",
+  "threads": 6,
+  "docker": false,
+  "wall_s": 137.15356669999892,
+  "baseline_vram_used_mb": 167.45703125,
+  "baseline_system_cpu_pct": 16.3,
+  "logical_cpus": 12,
+  "load": {
+    "n_samples": 224,
+    "peak_rss_mb": 1045.48828125,
+    "mean_proc_cpu_pct": 527.403125,
+    "peak_proc_cpu_pct": 797.9,
+    "mean_system_cpu_pct": 63.06160714285714,
+    "peak_vram_used_mb": 167.45703125,
+    "peak_vram_delta_mb": 0.0
+  },
+  "infer": {
+    "n_samples": 1951,
+    "peak_rss_mb": 1047.62109375,
+    "mean_proc_cpu_pct": 593.271911840082,
+    "peak_proc_cpu_pct": 831.1,
+    "mean_system_cpu_pct": 70.36437724243977,
+    "peak_vram_used_mb": 167.45703125,
+    "peak_vram_delta_mb": 0.0
+  }
+}

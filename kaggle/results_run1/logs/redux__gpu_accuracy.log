@@ -1,0 +1,14 @@
+DONE photon redux gpu accuracy
+MOONDREAM_API_KEY is not set. Finetune inference is disabled. Set MOONDREAM_API_KEY to enable finetune inference.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]
+Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1253.81it/s]
+/kaggle/working/venvs/photon/lib/python3.12/site-packages/kestrel_kernels/fallback.py:104: RuntimeWarning: kestrel-kernels: no native conformer LayerNorm variant for x=(1, 316, 1024) dtype=torch.bfloat16; using PyTorch fallback.
+  warn_fallback_once(kernel_key, message)
+/kaggle/working/venvs/photon/lib/python3.12/site-packages/kestrel_kernels/fallback.py:104: RuntimeWarning: kestrel-kernels: no native conformer residual LayerNorm variant for x=(1, 316, 1024) dtype=torch.bfloat16; using PyTorch fallback.
+  warn_fallback_once(kernel_key, message)
+/kaggle/working/venvs/photon/lib/python3.12/site-packages/kestrel_kernels/fallback.py:104: RuntimeWarning: kestrel-kernels: no native conformer attention variant for qkv=(1, 316, 3072) heads=8x128 dtype=torch.bfloat16; using PyTorch fallback.
+  warn_fallback_once(kernel_key, message)
+/kaggle/working/venvs/photon/lib/python3.12/site-packages/kestrel_kernels/fallback.py:104: RuntimeWarning: kestrel-kernels: no native conformer depthwise variant for x=(1, 316, 1024) dtype=torch.bfloat16 taps=(1024, 9); using PyTorch fallback.
+  warn_fallback_once(kernel_key, message)
