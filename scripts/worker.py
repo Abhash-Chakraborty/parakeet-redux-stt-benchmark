@@ -61,10 +61,10 @@ class TcppSystem:
         devs = {d.device_type: d for d in tc.backends()}
         self.model = tc.Model(gguf(*TCPP[system]), device=devs["gpu" if device == "gpu" else "cpu"])
         self.session = self.model.session(n_threads=threads)
-        self.whisper = system.startswith("w")
+        self.force_en = system.startswith("w") or system == "fourier_q8"
 
     def transcribe(self, path):
-        r = self.session.run(load_pcm(path), language="en") if self.whisper else self.session.run(load_pcm(path))
+        r = self.session.run(load_pcm(path), language="en") if self.force_en else self.session.run(load_pcm(path))
         return r.text
 
 

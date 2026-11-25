@@ -6,7 +6,8 @@ HUB = os.path.expanduser("~/.cache/huggingface/hub")
 
 
 def gguf(repo, filename):
-    hits = glob.glob(f"{HUB}/models--handy-computer--{repo}/snapshots/*/{filename}")
+    repo_slug = repo.replace("/", "--") if "/" in repo else f"handy-computer--{repo}"
+    hits = glob.glob(f"{HUB}/models--{repo_slug}/snapshots/*/{filename}")
     if not hits:
         raise FileNotFoundError(f"{repo}/{filename} not in HF cache")
     return hits[0]
@@ -19,6 +20,7 @@ TCPP = {  # system id -> (repo, file)
     "wlv3_q8": ("whisper-large-v3-gguf", "whisper-large-v3-Q8_0.gguf"),
     "wturbo_q8": ("whisper-large-v3-turbo-gguf", "whisper-large-v3-turbo-Q8_0.gguf"),
     "moon_f16": ("moonshine-base-gguf", "moonshine-base-F16.gguf"),
+    "fourier_q8": ("oruk/oruk-fourier-2b", "Fourier-2B-Q8_0.gguf"),
 }
 
 LABELS = {
@@ -29,6 +31,7 @@ LABELS = {
     "wlv3_q8": "Whisper large-v3 (Q8_0)",
     "wturbo_q8": "Whisper large-v3-turbo (Q8_0)",
     "moon_f16": "Moonshine base (F16)",
+    "fourier_q8": "Oruk Fourier 2B (Q8_0, English-only, CC BY-NC 4.0)",
     "oai": "OpenAI gpt-transcribe",
     "el": "ElevenLabs Scribe v2",
     "vercel": "Vercel AI Gateway STT",
